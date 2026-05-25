@@ -17,11 +17,10 @@ namespace exercise_2
             Console.Write("Enter The second set of numbers: ");
             double num2 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("answer (+) = {0}", num1 + num2);
-            Console.WriteLine("answer (-) = {0}", num1 - num2);
-            Console.WriteLine("answer (*) = {0}", num1 * num2);
-            Console.WriteLine("answer (/) = {0}", num1 / num2);
-            Console.WriteLine("answer (%) = {0}", num1 % num2);
+            Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
+            Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
+            Console.WriteLine($"{num1} x {num2} = {num1 * num2}");
+            Console.WriteLine($"{num1} / {num2} = {(num1 / num2):F2}");
             Console.ReadLine();
         }
     }
