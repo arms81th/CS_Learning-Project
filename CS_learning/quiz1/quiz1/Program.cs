@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace exercise_1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("What's name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("How old: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("How much does it weigh? : ");
+            double weight = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("How tall is it? : ");
+            double height = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("\n========= You information =========");
+            Console.WriteLine($"Name: {name}");
+            Console.WriteLine($"Age: {age} year");
+            Console.WriteLine($"Weight: {weight} kg");
+            Console.WriteLine($"Height: {height} m");
+            Console.WriteLine("\n=========*****************=========");
+            Console.ReadKey();
+        }
+    }
+}
